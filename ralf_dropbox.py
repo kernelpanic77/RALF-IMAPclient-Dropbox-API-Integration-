@@ -5,7 +5,7 @@ from dropbox.files import WriteMode
 from dropbox.exceptions import ApiError, AuthError
 
 # Access token
-TOKEN = 'IN0cTWjBtnAAAAAAAAAADIpQCLTjP-9ND0pz-ecgLcWo-b3LD7TQmI-eOfGWtzFQ'
+TOKEN = 'ACCESS TOKEN OBTAINED FROM DROPBOX DEVELOPERS WEBSITE'
 
 
 # LOCALFILE = '/home/ishanware77/Desktop/vac_agendas.txt'
