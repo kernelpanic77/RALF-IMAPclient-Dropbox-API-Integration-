@@ -4,9 +4,9 @@ from ralf_dropbox import *
 
 from imapclient import IMAPClient
 
-HOST = 'imap-mail.outlook.com'
-USERNAME = 'ralf.system@outlook.com'
-PASSWORD = 'system_ralf'
+HOST = 'imap-mail.outlook.com'#imap server depends on the website you choose, i will recommend OUTLOOK
+USERNAME = 'SYSTEM EMAIL ID'
+PASSWORD = 'SYSTEM EMAIL PASSWORD'#account that checks for emails from you
 
 with IMAPClient(HOST) as server:
     server.login(USERNAME, PASSWORD)
@@ -15,7 +15,8 @@ with IMAPClient(HOST) as server:
     messages = server.search('UNSEEN')
     for uid, message_data in server.fetch(messages, 'RFC822').items():
         email_message = email.message_from_bytes(message_data[b'RFC822'])
-        if email_message.get('From') == 'IMT2019037 Ishan Shanware <ishan.shanware@iiitb.org>':
+        if email_message.get('From') == 'IMT2019037 Ishan Shanware <ishan.shanware@iiitb.org>':#your email id from whic
+          #  h you send the mails
             BACKUPPATH = '/' + os.path.basename(email_message.get('Subject'))
             print(BACKUPPATH)
             LOCALFILE = email_message.get('Subject')
