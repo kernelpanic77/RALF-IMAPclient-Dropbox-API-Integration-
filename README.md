@@ -1,10 +1,18 @@
 # RALF(IMAPclient-Dropbox-API-Integration)
-allows your computer to upload files on your Dropbox account when you send the location of the file through your email 
+allows your computer to upload files on your Dropbox account when you send the location of the file through your em
 
 #HOW TO USE
 
     clone the repository
+    
+    
+#PYTHON MODULES REQUIRED:
 
+
+        pip install dropbox 
+        pip install imapclient 
+        pip install pyzmail
+        
 
 1. SETUP AN EMAIL ACCOUNT FOR YOUR SYSTEM , PREFERRABLY AN OUTLOOK ACCOUNT.
 
@@ -58,18 +66,3 @@ allows your computer to upload files on your Dropbox account when you send the l
         
         
   DON'T FORGET TO GIVE A STAR IF YOU LIKE THE IDEA
-      
-      
-    
-    
-       
-    
-    
-  
-    
-    
-    
-    
-   
-  
-    
