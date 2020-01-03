@@ -57,7 +57,7 @@ allows your computer to upload files on your Dropbox account when you send the l
         
         
         
-  DONT'T FORGET TO GIVE A STAR IF YOU LIKE THE IDEA
+  DON'T FORGET TO GIVE A STAR IF YOU LIKE THE IDEA
       
       
     
