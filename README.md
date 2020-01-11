@@ -1,12 +1,12 @@
 # RALF(IMAPclient-Dropbox-API-Integration)
 allows your computer to upload files on your Dropbox account when you send the location of the file through your em
 
-#HOW TO USE
+## Getting Started ##
 
     clone the repository
     
     
-#PYTHON MODULES REQUIRED:
+## PYTHON MODULES REQUIRED: ##
 
 
         pip install dropbox 
