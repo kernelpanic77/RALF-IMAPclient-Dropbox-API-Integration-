@@ -51,7 +51,7 @@ allows your computer to upload files on your Dropbox account when you send the l
       
  
  
- YOU ARE ALL DONE!!!!
+ YOU ARE ALL SET!!!!
  
  PS:
  
@@ -66,3 +66,6 @@ allows your computer to upload files on your Dropbox account when you send the l
         
         
   DON'T FORGET TO GIVE A STAR IF YOU LIKE THE IDEA
+  
+  ## Documentation ##
+  https://github.com/MegaMind77-coder/RALF-IMAPclient-Dropbox-API-Integration-/blob/master/RALF.pdf
