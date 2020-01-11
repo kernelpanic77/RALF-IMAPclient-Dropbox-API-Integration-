@@ -19,8 +19,9 @@ allows your computer to upload files on your Dropbox account when you send the l
 
 (THIS CODE MAY NOT WORK WITH GMAIL DUE TO GOOGLE'S NEW SECUIRITY GUIDELINES DUE TO WHICH I DID NOT USE GOOGLE DRIVE IN THE FIRST PLACE AND USED DROPBOX INSTEAD.)
 
-2.SETUP A DROPBOX ACCOUNT IF YOU DO NOT HAVE ONE, THEN GO TO https://www.dropbox.com/developers/apps.
-   STEP 1.  Create an app in your Dropbox account
+2.SETUP A DROPBOX ACCOUNT IF YOU DO NOT HAVE ONE, THEN GO TO
+  https://www.dropbox.com/developers/apps.
+  Create an app in your Dropbox account
 
     Go to https://www.dropbox.com/developers/apps/create
     Authorize, if you weren’t.
