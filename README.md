@@ -15,13 +15,13 @@ allows your computer to upload files on your Dropbox account when you send the l
         
    ### Follow these steps ###
 
-1.SETUP AN EMAIL ACCOUNT FOR YOUR SYSTEM , PREFERRABLY AN OUTLOOK ACCOUNT.
+ ##### 1.SETUP AN EMAIL ACCOUNT FOR YOUR SYSTEM , PREFERRABLY AN OUTLOOK ACCOUNT. #####
 
 (THIS CODE MAY NOT WORK WITH GMAIL DUE TO GOOGLE'S NEW SECUIRITY GUIDELINES DUE TO WHICH I DID NOT USE GOOGLE DRIVE IN THE FIRST PLACE AND USED DROPBOX INSTEAD.)
 
-2.SETUP A DROPBOX ACCOUNT IF YOU DO NOT HAVE ONE, THEN GO TO
-  https://www.dropbox.com/developers/apps.
-  Create an app in your Dropbox account
+ ##### 2.SETUP A DROPBOX ACCOUNT IF YOU DO NOT HAVE ONE, THEN GO TO  
+ ##### https://www.dropbox.com/developers/apps.
+ ##### Create an app in your Dropbox account 
 
     Go to https://www.dropbox.com/developers/apps/create
     Authorize, if you weren’t.
@@ -36,10 +36,10 @@ allows your computer to upload files on your Dropbox account when you send the l
       
     Now copy this token and paste this in place of accesstoken variable text in the ralf_dropbox.py file 
     
-3.TYPE IN YOUR SYSTEM EMAIL ID AND PASSWORD IN THE imap.py file.
+ ##### 3.TYPE IN YOUR SYSTEM EMAIL ID AND PASSWORD IN THE imap.py file.
   ALSO ADD YOUR EMAILID, WHICH YOU WILL BE USING TO SEND EMAILS TO YOUR SYSTEM EMAIL.
 
-4.USE THE time.py TO RUN THE imap.py FILE EVERY 10 MIN OR SETUP A CRONTAB TASK IF YOU ARE USING LINUX.
+ ##### 4.USE THE time.py TO RUN THE imap.py FILE EVERY 10 MIN OR SETUP A CRONTAB TASK IF YOU ARE USING LINUX.
   
   FOR CRONTAB:
   
@@ -53,16 +53,16 @@ allows your computer to upload files on your Dropbox account when you send the l
       
  
  
- YOU ARE ALL SET!!!!
+  ###  YOU ARE ALL SET!!!!
  
- PS:
+ ### PS:
  
- FORMAT OF EMAIL.
+ ### FORMAT OF EMAIL.
  
-    ofcourse the mail must be to your system-email(goes without saying)
-    leave the body blank and type in the path to the file in the subject.
-    some thing like this 
-        /home/ishanware77/Desktop/1.txt in the subject.
+   ofcourse the mail must be to your system-email(goes without saying)
+   leave the body blank and type in the path to the file in the subject.
+   some thing like this 
+       /home/ishanware77/Desktop/1.txt in the subject.
         
         
         
@@ -71,3 +71,7 @@ allows your computer to upload files on your Dropbox account when you send the l
   
   ## Documentation ##
   https://github.com/MegaMind77-coder/RALF-IMAPclient-Dropbox-API-Integration-/blob/master/RALF.pdf
+  
+  
+  ## Project Videos ##
+  https://www.youtube.com/watch?v=INNeq228yDc
