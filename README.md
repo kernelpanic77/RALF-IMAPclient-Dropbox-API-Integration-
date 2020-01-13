@@ -4,7 +4,7 @@ allows your computer to upload files on your Dropbox account when you send the l
 # Getting Started #
 
     clone the repository
-    
+   ## open in pycharm
     
    ### Python Modules Required: ###
 
